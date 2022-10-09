@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "human";
+  src: url("font/Humanist-777-Font.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #dce4d4 !important;
+}
+.contenedor {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 450px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  
+}
+.logo{
+  background-color: #ffff;
+  padding: 20px 45px;
+}
+.titulo {
+  font-size: 1.5em;
+  font-weight: 600;
+  font-family: "human";
+  color: #202020;
+  margin: 0 0 15px 0;
+  background-color: #ffff;
+  width: 100%;
+}
+.form{
+  background-color: #ffff;
+  padding: 0 45px 45px 45px;
+}
+.input > input {
+  width: 100%;
+  border: 0;
+  outline: none;
+  border-bottom: 1px solid #747474;
+  padding: 10px 0;
+  font-size: 0.9em;
+  color: #242424;
+}
+input:focus {
+  border-bottom: 1px solid #0464bc;
+}
+.no_account {
+  margin: 15px 0;
+}
+.no_account > label {
+  font-family: "human";
+  font-size: 0.8em;
+  color: #545454;
+}
+.no_account > label > a {
+  color: #0464bc;
+}
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+.button {
+    position: relative;
+    margin-top: 30px;
+    padding-bottom: 25px;
+}
+.button > button {
+    height: 30px;
+    padding: 10px 40px;
+    color: #ffff;
+    border-color: #0067b8;
+    background-color: #0067b8;
+    border: 0;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin:auto;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.sign-option{
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    width: 450px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #ffff;
+    padding: 50px;
+}
+.sign-options{
+    background-color: #ffff;
+    margin-top: 20px;
+    padding: 15px 40px;
+    position: relative;
+}
+.sign-options>label{
+    margin-left: 40px;
+    color: #545454;
+    font-size: 1.1em
+}
+.enter-password{
+  font-size: 1.4em;
+  font-weight: 600;
+  margin-top: 10px;
+}
